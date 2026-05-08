@@ -6,7 +6,7 @@
 
 **Трассировка:**
 1. $q_0$, лента: `abc☐`
-2. $q_0 \xrightarrow{a \to X, R} q_1$ → `Xbc☐`
+2. $q_0 \{a \to X, R} q_1$ → `Xbc☐`
 3. $q_1 \xrightarrow{b \to Y, R} q_2$ → `XYc☐`
 4. $q_2 \xrightarrow{c \to Z, L} q_3$ → `XYZ☐`
 5. $q_3 \xrightarrow{Y \to Y, L} q_3$
