@@ -30,7 +30,7 @@
 4. Обработка `c`: $q_2 \to q_3$ → `XXYYZZc☐`
 5. Возврат: $q_3 \to q_3 \to q_0$
 6. Проверка: $q_0 \to q_4 \to q_4 \to q_4$
-7. $q_4 \xrightarrow{\sqcup \to \sqcup, —} q_{accept}$
+7. $q_4 {\sqcup \to \sqcup, —} q_{accept}$
 
 **Результат:** принята.
 
@@ -56,8 +56,8 @@
 
 **Трассировка:**
 1. $q_0$, лента: `ab☐`
-2. $q_0 \xrightarrow{a \to X, R} q_1$ → `Xb☐`
-3. $q_1 \xrightarrow{b \to Y, R} q_2$ → `XY☐`
+2. $q_0 {a \to X, R} q_1$ → `Xb☐`
+3. $q_1 {b \to Y, R} q_2$ → `XY☐`
 4. Головка достигает $\sqcup$, но строка не соответствует шаблону
 5. Переход в $q_{reject}$
 
