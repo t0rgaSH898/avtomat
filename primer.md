@@ -6,14 +6,14 @@
 
 **Трассировка:**
 1. $q_0$, лента: `abc☐`
-2. $q_0 \{a \to X, R} q_1$ → `Xbc☐`
-3. $q_1 \{b \to Y, R} q_2$ → `XYc☐`
-4. $q_2 \{c \to Z, L} q_3$ → `XYZ☐`
-5. $q_3 \{Y \to Y, L} q_3$
-6. $q_3 \{X \to X, R} q_0$
-7. $q_0 \{Y \to Y, R} q_4$
-8. $q_4 \{Z \to Z, R} q_4$
-9. $q_4 \{\sqcup \to \sqcup, —} q_{accept}$
+2. $q_0 \xrightarrow{a \to X, R} q_1$ → `Xbc☐`
+3. $q_1 \xrightarrow{b \to Y, R} q_2$ → `XYc☐`
+4. $q_2 \xrightarrow{c \to Z, L} q_3$ → `XYZ☐`
+5. $q_3 \xrightarrow{Y \to Y, L} q_3$
+6. $q_3 \xrightarrow{X \to X, R} q_0$
+7. $q_0 \xrightarrow{Y \to Y, R} q_4$
+8. $q_4 \xrightarrow{Z \to Z, R} q_4$
+9. $q_4 \xrightarrow{\sqcup \to \sqcup, —} q_{accept}$
 
 **Результат:** принята.
 
